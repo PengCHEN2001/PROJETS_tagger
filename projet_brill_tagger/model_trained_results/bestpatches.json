@@ -1,0 +1,376 @@
+{
+    "accuracy": 0.9340779079269954,
+    "patches": [
+        {
+            "from_tag": "NC",
+            "to_tag": "VPP",
+            "template": {
+                "name": "prev_tag"
+            },
+            "context_tag": "V",
+            "score": 9,
+            "corrected": 11,
+            "introduced": 2
+        },
+        {
+            "from_tag": "NC",
+            "to_tag": "V",
+            "template": {
+                "name": "prev_tag"
+            },
+            "context_tag": "CLS",
+            "score": 9,
+            "corrected": 9,
+            "introduced": 0
+        },
+        {
+            "from_tag": "VINF",
+            "to_tag": "NC",
+            "template": {
+                "name": "prev_tag"
+            },
+            "context_tag": "DET",
+            "score": 7,
+            "corrected": 9,
+            "introduced": 2
+        },
+        {
+            "from_tag": "NC",
+            "to_tag": "ADJ",
+            "template": {
+                "name": "prev_tag"
+            },
+            "context_tag": "ADV",
+            "score": 5,
+            "corrected": 5,
+            "introduced": 0
+        },
+        {
+            "from_tag": "P+D",
+            "to_tag": "DET",
+            "template": {
+                "name": "prev_tag"
+            },
+            "context_tag": "VINF",
+            "score": 4,
+            "corrected": 5,
+            "introduced": 1
+        },
+        {
+            "from_tag": "NC",
+            "to_tag": "V",
+            "template": {
+                "name": "prev_tag"
+            },
+            "context_tag": "CLR",
+            "score": 4,
+            "corrected": 4,
+            "introduced": 0
+        },
+        {
+            "from_tag": "DET",
+            "to_tag": "ADJ",
+            "template": {
+                "name": "prev_tag"
+            },
+            "context_tag": "DET",
+            "score": 4,
+            "corrected": 4,
+            "introduced": 0
+        },
+        {
+            "from_tag": "NC",
+            "to_tag": "ADJ",
+            "template": {
+                "name": "prev_within_3_has_tag"
+            },
+            "context_tag": [
+                "DET",
+                "NC"
+            ],
+            "score": 3,
+            "corrected": 3,
+            "introduced": 0
+        },
+        {
+            "from_tag": "NC",
+            "to_tag": "VPP",
+            "template": {
+                "name": "next_z_and_next_two_w"
+            },
+            "context_tag": [
+                "par",
+                "par_le"
+            ],
+            "score": 3,
+            "corrected": 3,
+            "introduced": 0
+        },
+        {
+            "from_tag": "DET",
+            "to_tag": "PRO",
+            "template": {
+                "name": "next_tag"
+            },
+            "context_tag": "CS",
+            "score": 3,
+            "corrected": 3,
+            "introduced": 0
+        },
+        {
+            "from_tag": "VPP",
+            "to_tag": "NC",
+            "template": {
+                "name": "prev_tag"
+            },
+            "context_tag": "P",
+            "score": 3,
+            "corrected": 3,
+            "introduced": 0
+        },
+        {
+            "from_tag": "NC",
+            "to_tag": "V",
+            "template": {
+                "name": "prev_tag"
+            },
+            "context_tag": "PROREL",
+            "score": 3,
+            "corrected": 3,
+            "introduced": 0
+        },
+        {
+            "from_tag": "NC",
+            "to_tag": "ADJ",
+            "template": {
+                "name": "prev_two_tag"
+            },
+            "context_tag": "PONCT_NC",
+            "score": 2,
+            "corrected": 5,
+            "introduced": 3
+        },
+        {
+            "from_tag": "DET",
+            "to_tag": "PRO",
+            "template": {
+                "name": "next_tag"
+            },
+            "context_tag": "PROREL",
+            "score": 2,
+            "corrected": 2,
+            "introduced": 0
+        },
+        {
+            "from_tag": "NC",
+            "to_tag": "ADJ",
+            "template": {
+                "name": "prev_within_3_has_tag"
+            },
+            "context_tag": [
+                "NC",
+                "DET",
+                "NC"
+            ],
+            "score": 2,
+            "corrected": 2,
+            "introduced": 0
+        },
+        {
+            "from_tag": "DET",
+            "to_tag": "ADJ",
+            "template": {
+                "name": "prev_tag"
+            },
+            "context_tag": "P+D",
+            "score": 2,
+            "corrected": 2,
+            "introduced": 0
+        },
+        {
+            "from_tag": "DET",
+            "to_tag": "ADJ",
+            "template": {
+                "name": "next_within_3_has_tag"
+            },
+            "context_tag": [
+                "NC",
+                "NC"
+            ],
+            "score": 2,
+            "corrected": 2,
+            "introduced": 0
+        },
+        {
+            "from_tag": "NC",
+            "to_tag": "DET",
+            "template": {
+                "name": "next_z_and_next_two_w"
+            },
+            "context_tag": [
+                "patients",
+                "patients_ont"
+            ],
+            "score": 2,
+            "corrected": 2,
+            "introduced": 0
+        },
+        {
+            "from_tag": "CS",
+            "to_tag": "ADV",
+            "template": {
+                "name": "prev_within_3_has_tag"
+            },
+            "context_tag": [
+                "ADV",
+                "V",
+                "VPP"
+            ],
+            "score": 2,
+            "corrected": 2,
+            "introduced": 0
+        },
+        {
+            "from_tag": "NC",
+            "to_tag": "VPP",
+            "template": {
+                "name": "prev_within_3_has_tag"
+            },
+            "context_tag": [
+                "NC",
+                "P",
+                "VINF"
+            ],
+            "score": 2,
+            "corrected": 2,
+            "introduced": 0
+        },
+        {
+            "from_tag": "ADJ",
+            "to_tag": "DET",
+            "template": {
+                "name": "next_z_and_next_two_w"
+            },
+            "context_tag": [
+                "%",
+                "%_des"
+            ],
+            "score": 2,
+            "corrected": 2,
+            "introduced": 0
+        },
+        {
+            "from_tag": "NC",
+            "to_tag": "PRO",
+            "template": {
+                "name": "prev_z_and_next_w"
+            },
+            "context_tag": [
+                "(",
+                "sur"
+            ],
+            "score": 2,
+            "corrected": 2,
+            "introduced": 0
+        },
+        {
+            "from_tag": "DET",
+            "to_tag": "PRO",
+            "template": {
+                "name": "prev_two_tag"
+            },
+            "context_tag": "PRO_P",
+            "score": 2,
+            "corrected": 2,
+            "introduced": 0
+        },
+        {
+            "from_tag": "NC",
+            "to_tag": "PRO",
+            "template": {
+                "name": "prev_within_3_has_tag"
+            },
+            "context_tag": [
+                "PRO",
+                "P",
+                "PRO"
+            ],
+            "score": 2,
+            "corrected": 2,
+            "introduced": 0
+        },
+        {
+            "from_tag": "DET",
+            "to_tag": "PRO",
+            "template": {
+                "name": "next_tag"
+            },
+            "context_tag": "P",
+            "score": 2,
+            "corrected": 2,
+            "introduced": 0
+        },
+        {
+            "from_tag": "P+D",
+            "to_tag": "DET",
+            "template": {
+                "name": "prev_two_tag"
+            },
+            "context_tag": "VPP_P",
+            "score": 2,
+            "corrected": 2,
+            "introduced": 0
+        },
+        {
+            "from_tag": "NC",
+            "to_tag": "DET",
+            "template": {
+                "name": "next_z_and_next_two_w"
+            },
+            "context_tag": [
+                "patients",
+                "patients_traités"
+            ],
+            "score": 2,
+            "corrected": 2,
+            "introduced": 0
+        },
+        {
+            "from_tag": "NC",
+            "to_tag": "ET",
+            "template": {
+                "name": "next_tag"
+            },
+            "context_tag": "ET",
+            "score": 2,
+            "corrected": 2,
+            "introduced": 0
+        },
+        {
+            "from_tag": "NC",
+            "to_tag": "VPR",
+            "template": {
+                "name": "next_two_tag"
+            },
+            "context_tag": "ADV_DET",
+            "score": 2,
+            "corrected": 2,
+            "introduced": 0
+        },
+        {
+            "from_tag": "NC",
+            "to_tag": "ADJ",
+            "template": {
+                "name": "prev_within_3_has_tag"
+            },
+            "context_tag": [
+                "P",
+                "DET",
+                "NC"
+            ],
+            "score": 1,
+            "corrected": 6,
+            "introduced": 5
+        }
+    ]
+}
