@@ -1,2 +1,2 @@
-# 用这个DEPOT来储存我做过的项目
+# ici, j'ai mis mon projet pour mon diplome de licence en tal
 
