@@ -1,2 +1,2 @@
-# ici, j'ai mis mon projet pour mon diplome de licence en tal
+# ici, j'ai mis mon projet de licence 3 （S6） en TAL
 
